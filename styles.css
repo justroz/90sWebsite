@@ -6,7 +6,7 @@ body {
 
 a {
     color: yellow;
-    font-size: 100px;
+    font-size: 75px;
     text-decoration: none;
 }
 
@@ -15,25 +15,34 @@ a {
 }
 
 #main {
-    background-color: green;
+    color:white;
     height: 150px;
     padding: 25px;
 
 }
 
 #left {
-    float: left;
     color: rgb(122, 230, 230);
-    width: 50%;
+    
 }
 
 #right {
-    float: right;
     color: white;
+}
+
+#left, #right {
+    margin-top: 25px;
+}
+div img {
     width: 50%;
+    height: 50%;
 }
 
 img {
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    color: white;
 }
